@@ -1,5 +1,7 @@
 # data-access-guidelines-best-practices-wp1-decide
 ## DOI: 10.5281/zenodo.17085993 
+##[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17085993.svg)](https://doi.org/10.5281/zenodo.17085993)
+
 This repository documents and compares three data access approaches—Direct, Centralized, and Decentralized (Solid Pods)—evaluated within the DECIDE project (WP1, Task 1.3). It includes practical guidelines, experimental benchmarks, Jupyter notebooks, and best practices for FAIR- and GDPR-aligned data sharing in veterinary surveillance systems.
 
 
@@ -13,7 +15,7 @@ This repository documents and compares three data access approaches—Direct, Ce
 - Repository: [GitHub – Cattle Barometer](https://github.com/decide-project-eu/cattle-use-case-barometer)
 - Tutorial: [DECIDE Cattle Barometer Guide](https://decide-project-eu.github.io/case-studies-website/tutorials/cattle-barometer.html )
 
-#### Decentralized fedrated access Setup (Solid Pods)
+#### Decentralized federated access Setup (Solid Pods)
 - Data Format: RDF triples aligned with the Livestock Health Ontology (LHO)
 - Pod Hosting: [Solid Pod deployment](https://solidserver.bovi-analytics.com)
 - SPARQL Query Engine: Comunica engine
