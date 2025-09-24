@@ -1,0 +1,293 @@
+@prefix LHO: <http://www.purl.org/decide/LiveStockHealthOnto/LHO#> .
+@prefix decide: <http://www.purl.org/decide#> .
+@prefix ncit: <http://purl.obolibrary.org/obo/NCIT_C25464> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix schema: <http://schema.org/> .
+
+<https://solidserver.bovi-analytics.com/labs/lab5/dataset5>
+    a schema:Dataset ;
+    schema:name "Cattle BRD Diagnostic Dataset – Lab 1" ;
+    schema:description "Anonymized test results for BRD pathogens in cattle collected by Lab 5." ;
+    schema:creator <https://solidserver.bovi-analytics.com/labs/lab5/> ;
+    schema:license <http://creativecommons.org/licenses/by/4.0/> ;
+    schema:dateModified "2025-06-18"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    schema:url <https://solidserver.bovi-analytics.com/labs/lab1/dataset5> .
+
+
+LHO:Lab5CattleSample_66602 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Beef ;
+    LHO:hasCountry LHO:Ireland ;
+    LHO:hasDiagnosticTest LHO:Culture ;
+    LHO:hasLabReference LHO:5 ;
+    LHO:hasPathogen LHO:HS ;
+    LHO:hasProvince LHO:Leinster ;
+    LHO:hasResult LHO:0 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab5CattleSample_66603 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Beef ;
+    LHO:hasCountry LHO:Ireland ;
+    LHO:hasDiagnosticTest LHO:Culture ;
+    LHO:hasLabReference LHO:5 ;
+    LHO:hasPathogen LHO:MH ;
+    LHO:hasProvince LHO:Leinster ;
+    LHO:hasResult LHO:0 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab5CattleSample_66604 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Beef ;
+    LHO:hasCountry LHO:Ireland ;
+    LHO:hasDiagnosticTest LHO:Culture ;
+    LHO:hasLabReference LHO:5 ;
+    LHO:hasPathogen LHO:PM ;
+    LHO:hasProvince LHO:Leinster ;
+    LHO:hasResult LHO:1 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab5CattleSample_66605 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Beef ;
+    LHO:hasCountry LHO:Ireland ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:5 ;
+    LHO:hasPathogen LHO:BCV ;
+    LHO:hasProvince LHO:Leinster ;
+    LHO:hasResult LHO:0 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab5CattleSample_66606 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Beef ;
+    LHO:hasCountry LHO:Ireland ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:5 ;
+    LHO:hasPathogen LHO:BRSV ;
+    LHO:hasProvince LHO:Leinster ;
+    LHO:hasResult LHO:0 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab5CattleSample_66607 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Beef ;
+    LHO:hasCountry LHO:Ireland ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:5 ;
+    LHO:hasPathogen LHO:HS ;
+    LHO:hasProvince LHO:Leinster ;
+    LHO:hasResult LHO:0 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab5CattleSample_66608 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Beef ;
+    LHO:hasCountry LHO:Ireland ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:5 ;
+    LHO:hasPathogen LHO:MB ;
+    LHO:hasProvince LHO:Leinster ;
+    LHO:hasResult LHO:0 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab5CattleSample_66609 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Beef ;
+    LHO:hasCountry LHO:Ireland ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:5 ;
+    LHO:hasPathogen LHO:MH ;
+    LHO:hasProvince LHO:Leinster ;
+    LHO:hasResult LHO:1 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab5CattleSample_66610 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Beef ;
+    LHO:hasCountry LHO:Ireland ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:5 ;
+    LHO:hasPathogen LHO:PI3 ;
+    LHO:hasProvince LHO:Leinster ;
+    LHO:hasResult LHO:0 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab5CattleSample_66611 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Beef ;
+    LHO:hasCountry LHO:Ireland ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:5 ;
+    LHO:hasPathogen LHO:PM ;
+    LHO:hasProvince LHO:Leinster ;
+    LHO:hasResult LHO:1 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab5CattleSample_66612 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Beef ;
+    LHO:hasCountry LHO:Ireland ;
+    LHO:hasDiagnosticTest LHO:Culture ;
+    LHO:hasLabReference LHO:5 ;
+    LHO:hasPathogen LHO:HS ;
+    LHO:hasProvince LHO:Leinster ;
+    LHO:hasResult LHO:0 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab5CattleSample_66613 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Beef ;
+    LHO:hasCountry LHO:Ireland ;
+    LHO:hasDiagnosticTest LHO:Culture ;
+    LHO:hasLabReference LHO:5 ;
+    LHO:hasPathogen LHO:MH ;
+    LHO:hasProvince LHO:Leinster ;
+    LHO:hasResult LHO:0 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab5CattleSample_66614 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Beef ;
+    LHO:hasCountry LHO:Ireland ;
+    LHO:hasDiagnosticTest LHO:Culture ;
+    LHO:hasLabReference LHO:5 ;
+    LHO:hasPathogen LHO:PM ;
+    LHO:hasProvince LHO:Leinster ;
+    LHO:hasResult LHO:1 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab5CattleSample_66615 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Beef ;
+    LHO:hasCountry LHO:Ireland ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:5 ;
+    LHO:hasPathogen LHO:BCV ;
+    LHO:hasProvince LHO:Leinster ;
+    LHO:hasResult LHO:0 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab5CattleSample_66616 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Beef ;
+    LHO:hasCountry LHO:Ireland ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:5 ;
+    LHO:hasPathogen LHO:BRSV ;
+    LHO:hasProvince LHO:Leinster ;
+    LHO:hasResult LHO:0 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab5CattleSample_66617 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Beef ;
+    LHO:hasCountry LHO:Ireland ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:5 ;
+    LHO:hasPathogen LHO:HS ;
+    LHO:hasProvince LHO:Leinster ;
+    LHO:hasResult LHO:1 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab5CattleSample_66618 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Beef ;
+    LHO:hasCountry LHO:Ireland ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:5 ;
+    LHO:hasPathogen LHO:MB ;
+    LHO:hasProvince LHO:Leinster ;
+    LHO:hasResult LHO:1 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab5CattleSample_66619 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Beef ;
+    LHO:hasCountry LHO:Ireland ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:5 ;
+    LHO:hasPathogen LHO:MH ;
+    LHO:hasProvince LHO:Leinster ;
+    LHO:hasResult LHO:0 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab5CattleSample_75699 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Unknown ;
+    LHO:hasCountry LHO:Ireland ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:5 ;
+    LHO:hasPathogen LHO:PM ;
+    LHO:hasProvince LHO:Munster ;
+    LHO:hasResult LHO:Missing ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Swab a decide:SampleType .
+
+LHO:Ulster a LHO:Province ;
+    rdfs:comment "An individual representing different Province."@en .
+
+LHO:Missing a decide:SampleResult,
+        LHO:DiagnosticTest .
+
+LHO:MB a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:BCV a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:BRSV a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:PI3 a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:Unknown a LHO:Breed,
+        LHO:Province ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en,
+        "An individual representing different Province."@en .
+
+LHO:Connaught a LHO:Province ;
+    rdfs:comment "An individual representing different Province."@en .
+
+LHO:PM a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:MH a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:HS a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:1 a decide:SampleResult .
+
+LHO:Beef a LHO:Breed ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:Dairy a LHO:Breed ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:Culture a LHO:DiagnosticTest .
+
+LHO:Suckler a LHO:Breed ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:Munster a LHO:Province ;
+    rdfs:comment "An individual representing different Province."@en .
+
+LHO:Leinster a LHO:Province ;
+    rdfs:comment "An individual representing different Province."@en .
+
+LHO:PCR a LHO:DiagnosticTest .
+
+LHO:0 a decide:SampleResult .
+
+LHO:Autopsy a decide:SampleType .
+
+LHO:5 a LHO:LabReference .
+
+LHO:Ireland a ncit: ;
+    rdfs:label "The Netherland" ;
+    rdfs:comment "An individual representing different Countries."@en .

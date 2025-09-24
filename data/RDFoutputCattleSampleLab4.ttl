@@ -1,0 +1,206 @@
+@prefix LHO: <http://www.purl.org/decide/LiveStockHealthOnto/LHO#> .
+@prefix decide: <http://www.purl.org/decide#> .
+@prefix ncit: <http://purl.obolibrary.org/obo/NCIT_C25464> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix schema: <http://schema.org/> .
+
+<https://solidserver.bovi-analytics.com/labs/lab4/dataset4>
+    a schema:Dataset ;
+    schema:name "Cattle BRD Diagnostic Dataset – Lab 1" ;
+    schema:description "Anonymized test results for BRD pathogens in cattle collected by Lab 4." ;
+    schema:creator <https://solidserver.bovi-analytics.com/labs/lab4/> ;
+    schema:license <http://creativecommons.org/licenses/by/4.0/> ;
+    schema:dateModified "2025-06-18"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    schema:url <https://solidserver.bovi-analytics.com/labs/lab1/dataset4> .
+
+
+LHO:Lab4CattleSample_75700 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Unknown ;
+    LHO:hasCountry LHO:Belgium ;
+    LHO:hasDiagnosticTest LHO:NPS ;
+    LHO:hasLabReference LHO:4 ;
+    LHO:hasPathogen LHO:PM ;
+    LHO:hasProvince LHO:Missing ;
+    LHO:hasResult LHO:0.0 ;
+    LHO:hasSampleType LHO:BAL ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab4CattleSample_75701 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Unknown ;
+    LHO:hasCountry LHO:Belgium ;
+    LHO:hasDiagnosticTest LHO:NPS ;
+    LHO:hasLabReference LHO:4 ;
+    LHO:hasPathogen LHO:MH ;
+    LHO:hasProvince LHO:Missing ;
+    LHO:hasResult LHO:0.0 ;
+    LHO:hasSampleType LHO:BAL ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab4CattleSample_75702 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Unknown ;
+    LHO:hasCountry LHO:Belgium ;
+    LHO:hasDiagnosticTest LHO:NPS ;
+    LHO:hasLabReference LHO:4 ;
+    LHO:hasPathogen LHO:HS ;
+    LHO:hasProvince LHO:Missing ;
+    LHO:hasResult LHO:0.0 ;
+    LHO:hasSampleType LHO:BAL ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab4CattleSample_75703 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Unknown ;
+    LHO:hasCountry LHO:Belgium ;
+    LHO:hasDiagnosticTest LHO:NPS ;
+    LHO:hasLabReference LHO:4 ;
+    LHO:hasPathogen LHO:MB ;
+    LHO:hasProvince LHO:Missing ;
+    LHO:hasResult LHO:0.0 ;
+    LHO:hasSampleType LHO:BAL ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab4CattleSample_75704 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Unknown ;
+    LHO:hasCountry LHO:Belgium ;
+    LHO:hasDiagnosticTest LHO:NPS ;
+    LHO:hasLabReference LHO:4 ;
+    LHO:hasPathogen LHO:BRSV ;
+    LHO:hasProvince LHO:Missing ;
+    LHO:hasResult LHO:0.0 ;
+    LHO:hasSampleType LHO:BAL ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab4CattleSample_75705 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Unknown ;
+    LHO:hasCountry LHO:Belgium ;
+    LHO:hasDiagnosticTest LHO:NPS ;
+    LHO:hasLabReference LHO:4 ;
+    LHO:hasPathogen LHO:PI3 ;
+    LHO:hasProvince LHO:Missing ;
+    LHO:hasResult LHO:0.0 ;
+    LHO:hasSampleType LHO:BAL ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab4CattleSample_75706 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Unknown ;
+    LHO:hasCountry LHO:Belgium ;
+    LHO:hasDiagnosticTest LHO:NPS ;
+    LHO:hasLabReference LHO:4 ;
+    LHO:hasPathogen LHO:BCV ;
+    LHO:hasProvince LHO:Missing ;
+    LHO:hasResult LHO:0.0 ;
+    LHO:hasSampleType LHO:BAL ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab4CattleSample_75707 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Unknown ;
+    LHO:hasCountry LHO:Belgium ;
+    LHO:hasDiagnosticTest LHO:NPS ;
+    LHO:hasLabReference LHO:4 ;
+    LHO:hasPathogen LHO:PM ;
+    LHO:hasProvince LHO:Missing ;
+    LHO:hasResult LHO:0.0 ;
+    LHO:hasSampleType LHO:BAL ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab4CattleSample_75708 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Unknown ;
+    LHO:hasCountry LHO:Belgium ;
+    LHO:hasDiagnosticTest LHO:NPS ;
+    LHO:hasLabReference LHO:4 ;
+    LHO:hasPathogen LHO:MH ;
+    LHO:hasProvince LHO:Missing ;
+    LHO:hasResult LHO:0.0 ;
+    LHO:hasSampleType LHO:BAL ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab4CattleSample_75709 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Unknown ;
+    LHO:hasCountry LHO:Belgium ;
+    LHO:hasDiagnosticTest LHO:NPS ;
+    LHO:hasLabReference LHO:4 ;
+    LHO:hasPathogen LHO:HS ;
+    LHO:hasProvince LHO:Missing ;
+    LHO:hasResult LHO:0.0 ;
+    LHO:hasSampleType LHO:BAL ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab4CattleSample_75710 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Unknown ;
+    LHO:hasCountry LHO:Belgium ;
+    LHO:hasDiagnosticTest LHO:NPS ;
+    LHO:hasLabReference LHO:4 ;
+    LHO:hasPathogen LHO:MB ;
+    LHO:hasProvince LHO:Missing ;
+    LHO:hasResult LHO:0.0 ;
+    LHO:hasSampleType LHO:BAL ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab4CattleSample_76293 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Unknown ;
+    LHO:hasCountry LHO:TheNetherlands ;
+    LHO:hasDiagnosticTest LHO:NPS ;
+    LHO:hasLabReference LHO:4 ;
+    LHO:hasPathogen LHO:PI3 ;
+    LHO:hasProvince LHO:Missing ;
+    LHO:hasResult LHO:0.0 ;
+    LHO:hasSampleType LHO:BAL ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab4CattleSample_76294 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Unknown ;
+    LHO:hasCountry LHO:TheNetherlands ;
+    LHO:hasDiagnosticTest LHO:NPS ;
+    LHO:hasLabReference LHO:4 ;
+    LHO:hasPathogen LHO:BCV ;
+    LHO:hasProvince LHO:Missing ;
+    LHO:hasResult LHO:1.0 ;
+    LHO:hasSampleType LHO:BAL ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:TheNetherlands a ncit: ;
+    rdfs:label "The Netherland" ;
+    rdfs:comment "An individual representing different Countries."@en .
+
+LHO:Swab a decide:SampleType .
+
+LHO:1.0 a decide:SampleResult .
+
+LHO:BCV a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:BRSV a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:HS a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:MB a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:MH a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:PI3 a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:PM a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:0.0 a decide:SampleResult .
+
+LHO:BAL a decide:SampleType .
+
+LHO:Belgium a ncit: ;
+    rdfs:label "The Netherland" ;
+    rdfs:comment "An individual representing different Countries."@en .
+
+LHO:4 a LHO:LabReference .
+
+LHO:Missing a LHO:Province ;
+    rdfs:comment "An individual representing different Province."@en .
+
+LHO:NPS a LHO:DiagnosticTest .
+
+LHO:Unknown a LHO:Breed ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .

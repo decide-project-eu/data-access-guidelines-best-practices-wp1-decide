@@ -1,0 +1,226 @@
+@prefix LHO: <http://www.purl.org/decide/LiveStockHealthOnto/LHO#> .
+@prefix decide: <http://www.purl.org/decide#> .
+@prefix ncit: <http://purl.obolibrary.org/obo/NCIT_C25464> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+
+<https://solidserver.bovi-analytics.com/labs/lab2/dataset1>
+    a schema:Dataset ;
+    schema:name "Cattle BRD Diagnostic Dataset – Lab 2" ;
+    schema:description "Anonymized test results for BRD pathogens in cattle collected by Lab 2." ;
+    schema:creator <https://solidserver.bovi-analytics.com/labs/lab2/> ;
+    schema:license <http://creativecommons.org/licenses/by/4.0/> ;
+    schema:dateModified "2025-06-18"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    schema:url <https://solidserver.bovi-analytics.com/labs/lab1/dataset2> .
+
+LHO:Lab2CattleSample_51160 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Dairy ;
+    LHO:hasCountry LHO:TheNetherlands ;
+    LHO:hasDiagnosticTest LHO:Culture ;
+    LHO:hasLabReference LHO:2 ;
+    LHO:hasPathogen LHO:MB ;
+    LHO:hasProvince LHO:Friesland ;
+    LHO:hasSampleType LHO:BAL ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab2CattleSample_51161 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Dairy ;
+    LHO:hasCountry LHO:TheNetherlands ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:2 ;
+    LHO:hasPathogen LHO:BRSV ;
+    LHO:hasProvince LHO:Friesland ;
+    LHO:hasResult LHO:1;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab2CattleSample_51162 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Dairy ;
+    LHO:hasCountry LHO:TheNetherlands ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:2 ;
+    LHO:hasPathogen LHO:BCV ;
+    LHO:hasProvince LHO:Friesland ;
+    LHO:hasSampleType LHO:BAL ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab2CattleSample_51163 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Dairy ;
+    LHO:hasCountry LHO:TheNetherlands ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:2 ;
+    LHO:hasPathogen LHO:PM ;
+    LHO:hasProvince LHO:Friesland ;
+    LHO:hasResult LHO:Missing ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab2CattleSample_51164 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Dairy ;
+    LHO:hasCountry LHO:TheNetherlands ;
+    LHO:hasDiagnosticTest LHO:Culture ;
+    LHO:hasLabReference LHO:2 ;
+    LHO:hasPathogen LHO:PI3 ;
+    LHO:hasProvince LHO:Friesland ;
+    LHO:hasResult LHO:0 ;
+    LHO:hasSampleType LHO:BAL ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab2CattleSample_51165 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Dairy ;
+    LHO:hasCountry LHO:TheNetherlands ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:2 ;
+    LHO:hasPathogen LHO:MB ;
+    LHO:hasProvince LHO:Friesland ;
+    LHO:hasResult LHO:1 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab2CattleSample_51166 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Dairy ;
+    LHO:hasCountry LHO:TheNetherlands ;
+    LHO:hasDiagnosticTest LHO:Culture ;
+    LHO:hasLabReference LHO:2 ;
+    LHO:hasPathogen LHO:BCV ;
+    LHO:hasProvince LHO:Friesland ;
+    LHO:hasResult LHO: ;
+    LHO:hasSampleType LHO:BAL ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab2CattleSample_51167 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Dairy ;
+    LHO:hasCountry LHO:TheNetherlands ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:2 ;
+    LHO:hasPathogen LHO:HS ;
+    LHO:hasProvince LHO:Friesland ;
+    LHO:hasResult LHO:Missing ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab2CattleSample_51168 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Dairy ;
+    LHO:hasCountry LHO:TheNetherlands ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:2 ;
+    LHO:hasPathogen LHO:PM ;
+    LHO:hasProvince LHO:Friesland ;
+    LHO:hasResult LHO:Missing ;
+    LHO:hasSampleType LHO:BAL ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Lab2CattleSample_51169 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Dairy ;
+    LHO:hasCountry LHO:TheNetherlands ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:2 ;
+    LHO:hasPathogen LHO:PI3 ;
+    LHO:hasProvince LHO:Friesland ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+LHO:Lab2CattleSample_66601 a LHO:CattleSample ;
+    LHO:hasBreed LHO:Veal ;
+    LHO:hasCountry LHO:TheNetherlands ;
+    LHO:hasDiagnosticTest LHO:PCR ;
+    LHO:hasLabReference LHO:2 ;
+    LHO:hasPathogen LHO:BCV ;
+    LHO:hasProvince LHO:NorthBrabant ;
+    LHO:hasResult LHO:0 ;
+    LHO:hasSampleType LHO:Autopsy ;
+    rdfs:comment "An individual representing a sample from a cattle."@en .
+
+LHO:Veal a LHO:Breed ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:Zeeland a LHO:Province ;
+    rdfs:comment "An individual representing different Province."@en .
+
+LHO:Flevoland a LHO:Province ;
+    rdfs:comment "An individual representing different Province."@en .
+
+LHO:Limburg a LHO:Province ;
+    rdfs:comment "An individual representing different Province."@en .
+
+LHO:Groningen a LHO:Province ;
+    rdfs:comment "An individual representing different Province."@en .
+
+LHO:NorthHolland a LHO:Province ;
+    rdfs:comment "An individual representing different Province."@en .
+
+LHO:SouthHolland a LHO:Province ;
+    rdfs:comment "An individual representing different Province."@en .
+
+LHO:Mixed a LHO:Breed ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:Utrecht a LHO:Province ;
+    rdfs:comment "An individual representing different Province."@en .
+
+LHO:1 a decide:SampleResult .
+
+LHO:Drenthe a LHO:Province ;
+    rdfs:comment "An individual representing different Province."@en .
+
+LHO:Unknown a decide:SampleType,
+        LHO:Breed ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:NorthBrabant a LHO:Province ;
+    rdfs:comment "An individual representing different Province."@en .
+
+LHO:Friesland a LHO:Province ;
+    rdfs:comment "An individual representing different Province."@en .
+
+LHO:BCV a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:BRSV a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:HS a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:MB a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:MH a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:PI3 a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:PM a decide:Pathogen ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:Swab a decide:SampleType .
+
+LHO:Overijssel a LHO:Province ;
+    rdfs:comment "An individual representing different Province."@en .
+
+LHO:Gelderland a LHO:Province ;
+    rdfs:comment "An individual representing different Province."@en .
+
+LHO:Beef a LHO:Breed ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:BAL a decide:SampleType .
+
+LHO:Culture a LHO:DiagnosticTest .
+
+LHO:Autopsy a decide:SampleType .
+
+LHO:Dairy a LHO:Breed ;
+    rdfs:comment "An individual representing a cattle breed of mixed meat and dairy type."@en .
+
+LHO:Missing a decide:SampleResult,
+        LHO:Province ;
+    rdfs:comment "An individual representing different Province."@en .
+
+LHO:PCR a LHO:DiagnosticTest .
+
+LHO:2 a LHO:LabReference .
+
+LHO:TheNetherlands a ncit: ;
+    rdfs:label "The Netherland" ;
+    rdfs:comment "An individual representing different Countries."@en .
