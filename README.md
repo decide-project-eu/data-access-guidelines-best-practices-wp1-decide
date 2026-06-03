@@ -1,5 +1,9 @@
 # SPARQL Query Benchmark (Comunica v5.2.0)
 
+**DOI:** 10.5281/zenodo.17085993
+
+This repository documents and compares three data access approaches — **direct data sharing**, **centralized access**, and **federated access using Solid Pods** — evaluated within the DECIDE project (WP1, Task 1.3). It provides practical guidelines, experimental benchmarks (Comunica v5.2.0), Jupyter notebooks, and best practices for FAIR- and GDPR-aligned data sharing in veterinary disease surveillance.
+
 Reproducible benchmark code for the data-access experiments in:
 
 > **From data silos to actionable insights: A comparative evaluation of data access approaches for animal health surveillance.**
@@ -25,8 +29,10 @@ Same engine, same query — only the data topology differs.
 | ----------------------------------- | ------------------------------------------------------------------------ |
 | **`centralized-v5.2.0.js`** | Queries the combined cattle dataset (one source) with Q1.                |
 | **`benchmark-v5.2.0.js`**   | Runs the three federated experiments (5 runs each), reports mean ± std. |
+| `run_query.js` | Single-query JSON runner (used by the notebook) |
 | `package.json`                    | Dependency:`@comunica/query-sparql ^5.2.0`.                            |
-|                                     |                                                                          |
+| `FederatedQuery_Final_ExperimentsLocal.ipynb` | Experiments + Welch's t-tests + figures |
+| `Results/` | Figure 5 (centralized vs federated) and Figure 6 (vertical vs horizontal) |
 
 ---
 
@@ -131,3 +137,6 @@ In short: the **code** is fully reproducible; the **published numbers** require 
 ## Citation
 
 Code and sample RDF dataset archived on Zenodo: [https://doi.org/10.5281/zenodo.17085993](https://doi.org/10.5281/zenodo.17085993)
+
+## Data availability
+The diagnostic data are sensitive and shared under agreements with the participating laboratories. The public pods host a small **sample** so the workflow can be run by anyone; the row counts and timings reported in the paper were measured on the **complete dataset**, which is not publicly available. Code and sample RDF are archived on Zenodo: https://doi.org/10.5281/zenodo.17085993
