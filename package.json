@@ -1,0 +1,9 @@
+{
+  "name": "federated-access-v5.2.0",
+  "version": "1.0.0",
+  "description": "Benchmark federated access experiments using official Comunica v5.2.0",
+  "private": true,
+  "dependencies": {
+    "@comunica/query-sparql": "^5.2.0"
+  }
+}
