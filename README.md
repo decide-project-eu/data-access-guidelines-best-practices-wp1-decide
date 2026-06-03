@@ -1,4 +1,5 @@
-# SPARQL Query Benchmark (Comunica v5.2.0)
+# data-access-guidelines-best-practices-wp1-decide
+## SPARQL Query Benchmark (Comunica v5.2.0)
 
 **DOI:** 10.5281/zenodo.17085993
 
