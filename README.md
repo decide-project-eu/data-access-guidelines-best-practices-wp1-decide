@@ -1,7 +1,7 @@
 # data-access-guidelines-best-practices-wp1-decide
 ## SPARQL Query Benchmark (Comunica v5.2.0)
 
-**Zenodo DOI:**  https://zenodo.org/records/17193891 
+**Zenodo DOI:** https://zenodo.org/records/21825431
 
 This repository documents and compares three data access approaches — **direct data sharing**, **centralized access**, and **federated access using Solid Pods** — evaluated within the DECIDE project (WP1, Task 1.3). It provides practical guidelines, experimental benchmarks (Comunica v5.2.0), Jupyter notebooks, and best practices for FAIR- and GDPR-aligned data sharing in veterinary disease surveillance.
 
