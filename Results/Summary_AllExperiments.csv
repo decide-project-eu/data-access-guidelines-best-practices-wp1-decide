@@ -1,4 +1,4 @@
 Experiment,Sources,Runs,Triples,Mean_Total_s,STD_Total_s
 Exp1: Cattle Barometer,5,5,739970,30.03,2.19
 Exp2: Complex Vertical,12,5,806025,30.15,1.54
-Exp3: Complex Horizontal,6,5,806025,34.08,3.52
+Exp3: Complex Horizontal,12,5,806025,34.08,3.52
