@@ -102,8 +102,7 @@ node benchmark-v5.2.0.js exp1 exp3
 
 Centralized and federated cattle runs use the **same query (Q1)** and the **same engine**;
 only the topology differs (1 combined source vs 5 pods), which isolates federation overhead.
-Federated Exp 2 and Exp 3 likewise use the **identical query (Q2)** over the **same data** —
-only the pod layout differs.
+Federated Exp 2 and Exp 3 likewise use the **identical query (Q2)** over the **same data** .
 
 ---
 
