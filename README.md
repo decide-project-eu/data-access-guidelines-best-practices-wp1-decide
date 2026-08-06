@@ -97,8 +97,8 @@ node benchmark-v5.2.0.js exp1 exp3
 | --------------------------------------- | ------------------------- | ------------------------ | ----------------------------------- |
 | **Centralized — cattle**         | 1 combined cattle dataset | Q1 (single-species)      | Centralized arm of**Table 4** |
 | **Federated Exp 1 — cattle**     | 5 cattle pods             | Q1 (single-species)      | Federated arm of**Table 4**   |
-| **Federated Exp 2 — vertical**   | 12 species-specific pods  | Q2 (multi-species UNION) | **Table 5** (vertical)        |
-| **Federated Exp 3 — horizontal** | 6 mixed-species pods      | Q2 (same UNION)          | **Table 5** (horizontal)      |
+| **Federated Exp 2 — vertical**   |  species-specific pods  | Q2 (multi-species UNION) | **Table 5** (vertical)        |
+| **Federated Exp 3 — horizontal** |  mixed-species pods      | Q2 (same UNION)          | **Table 5** (horizontal)      |
 
 Centralized and federated cattle runs use the **same query (Q1)** and the **same engine**;
 only the topology differs (1 combined source vs 5 pods), which isolates federation overhead.
