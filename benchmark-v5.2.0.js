@@ -7,8 +7,8 @@
  *
  * Experiments:
  *   Exp 1 -- Cattle Barometer    (Q1 simple,  5 cattle pods)
- *   Exp 2 -- Complex Vertical    (Q2 UNION,   Vertical pods)
- *   Exp 3 -- Complex Horizontal  (Q2 UNION,   horizontal pods)
+ *   Exp 2 -- Complex Vertical    (Q2 UNION,  12 species pods)
+ *   Exp 3 -- Complex Horizontal  (Q2 UNION,   6 horizontal pods)
  *
  * Usage:
  *   node benchmark-v5.2.0.js            # run all 3 experiments
@@ -132,12 +132,12 @@ const horizontal_pods = [
   `${BASE}/decide_lab4/Horizontal/HorizontalLab4.ttl`,
   `${BASE}/decide_lab5/Horizontal/HorizontalLab5.ttl`,
   `${BASE}/decide_lab6/Horizontal/HorizontalLab6.ttl`,
-  `${BASE}/decide_lab7/Horizontal/HorizontalLab7.ttl`,
-  `${BASE}/decide_lab8/Horizontal/HorizontalLab8.ttl`,
-  `${BASE}/decide_lab9/Horizontal/HorizontalLab9.ttl`,
-  `${BASE}/decide_lab10/Horizontal/HorizontalLab10.ttl`,
-  `${BASE}/decide_lab11/Horizontal/HorizontalLab11.ttl`,
-  `${BASE}/decide_lab12/Horizontal/HorizontalLab12.ttl`,
+  `${BASE}/decide_lab6/Horizontal/HorizontalLab7.ttl`,
+  `${BASE}/decide_lab6/Horizontal/HorizontalLab8.ttl`,
+  `${BASE}/decide_lab6/Horizontal/HorizontalLab9.ttl`,
+  `${BASE}/decide_lab6/Horizontal/HorizontalLab10.ttl`,
+  `${BASE}/decide_lab6/Horizontal/HorizontalLab11.ttl`,
+  `${BASE}/decide_lab6/Horizontal/HorizontalLab12.ttl`,
 ];
 
 // ----------------------------------------------------------------------
