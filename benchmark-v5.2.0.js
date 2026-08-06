@@ -132,6 +132,12 @@ const horizontal_pods = [
   `${BASE}/decide_lab4/Horizontal/HorizontalLab4.ttl`,
   `${BASE}/decide_lab5/Horizontal/HorizontalLab5.ttl`,
   `${BASE}/decide_lab6/Horizontal/HorizontalLab6.ttl`,
+  `${BASE}/decide_lab6/Horizontal/HorizontalLab7.ttl`,
+  `${BASE}/decide_lab6/Horizontal/HorizontalLab8.ttl`,
+  `${BASE}/decide_lab6/Horizontal/HorizontalLab9.ttl`,
+  `${BASE}/decide_lab6/Horizontal/HorizontalLab10.ttl`,
+  `${BASE}/decide_lab6/Horizontal/HorizontalLab11.ttl`,
+  `${BASE}/decide_lab6/Horizontal/HorizontalLab12.ttl`,
 ];
 
 // ----------------------------------------------------------------------
@@ -146,13 +152,13 @@ const EXPERIMENTS = {
     expectedRows: 569,
   },
   exp2: {
-    label: 'Exp 2 -- Vertical federation (Q2, 12 species-specific pods)',
+    label: 'Exp 2 -- Vertical federation (Q2, species-specific pods)',
     sources: vertical_pods,
     query: Q2_COMPLEX_UNION,
     expectedRows: 1378,
   },
   exp3: {
-    label: 'Exp 3 -- Horizontal federation (Q2, 6 mixed-species pods)',
+    label: 'Exp 3 -- Horizontal federation (Q2,  mixed-species pods)',
     sources: horizontal_pods,
     query: Q2_COMPLEX_UNION,
     expectedRows: 1378,
